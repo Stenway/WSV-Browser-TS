@@ -5,13 +5,13 @@ exports.WsvDownload = void 0;
 // ----------------------------------------------------------------------
 class WsvDownload {
     static getDownloadUrl(document) {
-        let bytes = document.getBytes();
-        let blob = new Blob([bytes], { type: 'text/plain' });
+        const bytes = document.getBytes();
+        const blob = new Blob([bytes], { type: 'text/plain' });
         return URL.createObjectURL(blob);
     }
     static download(wsvDocument, fileName) {
         const url = WsvDownload.getDownloadUrl(wsvDocument);
-        let element = document.createElement('a');
+        const element = document.createElement('a');
         element.href = url;
         element.download = fileName;
         element.style.display = 'none';
@@ -21,3 +21,4 @@ class WsvDownload {
     }
 }
 exports.WsvDownload = WsvDownload;
+//# sourceMappingURL=wsv-browser.js.map

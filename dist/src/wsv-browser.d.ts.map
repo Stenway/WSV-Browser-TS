@@ -1,0 +1,1 @@
+{"version":3,"file":"wsv-browser.d.ts","sourceRoot":"","sources":["../../src/wsv-browser.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,WAAW,EAAE,MAAM,cAAc,CAAA;AAI1C,8BAAsB,WAAW;IAChC,MAAM,CAAC,cAAc,CAAC,QAAQ,EAAE,WAAW,GAAG,MAAM;IAMpD,MAAM,CAAC,QAAQ,CAAC,WAAW,EAAE,WAAW,EAAE,QAAQ,EAAE,MAAM;CAU1D"}
